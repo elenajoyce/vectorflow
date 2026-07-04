@@ -1,0 +1,21 @@
+{
+  "name": "vector-flow-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VectorFlow - Real-time continuous payments & token streaming protocol on Soroban",
+  "scripts": {
+    "build:config": "pnpm --filter @vector-flow/config build",
+    "build:sdk": "pnpm --filter @vector-flow/sdk build",
+    "build": "pnpm build:config && pnpm build:sdk && pnpm --filter @vector-flow/coordinator build && pnpm --filter @vector-flow/relayer build && pnpm --filter @vector-flow/frontend build",
+    "test:contracts": "cd contracts && cargo test",
+    "dev:coordinator": "pnpm --filter @vector-flow/coordinator dev",
+    "dev:relayer": "pnpm --filter @vector-flow/relayer dev",
+    "dev:frontend": "pnpm --filter @vector-flow/frontend dev",
+    "lint": "pnpm -r exec eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "typescript": "^5.2.0"
+  }
+}

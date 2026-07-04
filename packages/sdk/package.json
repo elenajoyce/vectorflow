@@ -1,0 +1,18 @@
+{
+  "name": "@vector-flow/sdk",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@vector-flow/config": "workspace:*",
+    "stellar-sdk": "^13.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

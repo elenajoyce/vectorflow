@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Compilation/Build Outputs
+dist/
+build/
+target/
+contracts/target/
+
+# Local databases
+*.db
+*.db-journal
+
+# Editor / OS files
+.DS_Store
+.vscode/
+Thumbs.db
+.astro_bridge_backup/
