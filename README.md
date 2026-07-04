@@ -5,7 +5,7 @@
 > Decentralized continuous token streaming & real-time payroll protocol on Stellar (Soroban).  
 > **流 - Stream payments second-by-second. Low fees, instant access, absolute control.**
 
-[![CI](https://github.com/elenajoyce/vector-flow-core/actions/workflows/ci.yml/badge.svg)](https://github.com/elenajoyce/vector-flow-core/actions/workflows/ci.yml)
+[![CI](https://github.com/elenajoyce/vectorflow/actions/workflows/ci.yml/badge.svg)](https://github.com/elenajoyce/vectorflow/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
